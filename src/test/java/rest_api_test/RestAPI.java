@@ -61,7 +61,13 @@ public class RestAPI {
 		//    JSON path
 	}
 	
-	
+	@Test
+	public void test_6() {
+		get("https://api.zippopotam.us/us/19030")
+		.then()
+		.body("'post code'", equalTo("19030"));
+		//    JSON path
+	}
 	
 	
 	

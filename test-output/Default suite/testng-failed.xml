@@ -5,7 +5,7 @@
     <classes>
       <class name="rest_api_test.RestAPI">
         <methods>
-          <include name="test_2"/>
+          <include name="test_6"/>
         </methods>
       </class> <!-- rest_api_test.RestAPI -->
     </classes>
